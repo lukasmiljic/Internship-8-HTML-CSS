@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"
+        type="image/x-icon">
+    <title>HTML ONLY</title>
+</head>
+
+<body>
+    <header>
+        <h1>HTML Only</h1>
+        <ul> Navigation
+            <li><a href="#what-is-this">What is this?</a></li>
+            <li><a href="#how-does-this-work">How does this work?</a></li>
+            <li><a href="#but-why">But why?</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="article" id="what-is-this">
+            <h2>What is this?</h2>
+            <p>
+                This page was inspired by a <a href="#">tweet from Salma</a> .
+                Pretty HTML only pages are difficult to make well, and
+                accessible. But here we are. I'm trying my best.
+            </p>
+        </div>
+        <div class="article" id="how-does-this-work">
+            <h2>How does this work?</h2>
+            <p> The key to a lot of this is leveraging using tables with a
+                role="presentation" attribute to make decorated sections
+                without css. If you view source on the page, you'll see
+                that there are a LOT of tables. The table tag typically
+                is used to display tabular data and should NOT be used
+                as a layout method. However, since I am not allowed to
+                use CSS, I am pretty much exclusively relying on tables
+                for this purpose. The presentation role tells the browser
+                to not expose the table and its tabluar children in the
+                accessibility tree. This will make it easier to navigate
+                for assistive technology.
+            </p>
+            <p>
+                I'm also leveraging some deprecated HTML elements from
+                HTML 3.2 that you should never use. In order to be "compliant",
+                I've added the HTML 3.2 doctype at the top of the page:
+                <span id="code">&gt;!DOCTYPE HTML PUBLIC "&quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&lt;</span>
+                This helps give a hint to the browser that we are going to use some older stuff.
+            </p>
+            <p>
+                HOWEVER, I'm also using some newer things such as details/summary,
+                section, main, header, and footer. So I'm just making a mess of my
+                doctype and what I should be actually using!
+            </p>
+        </div>
+        <div class="article" id="but-why">
+            <h2>But why?</h2>
+            <img src="https://c.tenor.com/KjJTBQ9lftsAAAAd/why-huh.gif" alt="ryan-reynold-but-why-gif">
+            <p>
+                I make terrible things. This was an exciting <a href="#">nerd snipe</a>
+                on a sunday, And I took up the challenge!
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Created by <a href="#">Alex Riviere</a>
+            <br>
+            &lpar;One <span id="marquee">marquee</span> for good measure...&rpar;
+        </p>
+    </footer>
+</body>
+
+</html>
