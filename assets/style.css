@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.nav #navigation-title::before {
+    content: "▼ ";
+    font-size: 0.65em;
+}
+
+a {
+    color: aqua;
+}
+
+a:visited {
+    color: mediumpurple
+}
+
+hr {
+    border: 1px solid orange;
+    margin: 7px 0px;
+}
+
+.article {
+    color: black;
+    background-color: antiquewhite;
+    font-size: 1.5em;
+    border: 11px solid magenta;
+    padding: 35px 10px;
+}
+
+.article h2 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+#how-does-this-work {
+    border-color: aqua;
+}
+
+.code {
+    font-family: monospace;
+}
+
+#but-why {
+    border-color: orange;
+}
+
+footer {
+    text-align: center;
+}
+
+#marquee {
+    font-size: 0.75em;
+}
+
+#marquee-text {
+    font-family: monospace;
+}
