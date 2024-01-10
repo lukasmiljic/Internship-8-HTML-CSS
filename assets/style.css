@@ -13,12 +13,12 @@ header {
     color: white;
     background-color: black;
     text-align: center;
-    padding: 25px;
+    padding-bottom: 25px;
 }
 
 header h1 {
     font-size: 3em;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .nav {
@@ -32,7 +32,7 @@ header h1 {
 
 .nav #navigation-title::before {
     content: "▼ ";
-    font-size: 0.65em;
+    font-size: 0.85em;
 }
 
 a {
@@ -53,12 +53,17 @@ hr {
     background-color: antiquewhite;
     font-size: 1.5em;
     border: 11px solid magenta;
-    padding: 35px 10px;
+    padding: 10px;
 }
 
 .article h2 {
     font-size: 1.5em;
-    margin-bottom: 25px;
+    margin-bottom: 1em;
+}
+
+.article a{
+    color:navy;
+    text-decoration-color: aqua;
 }
 
 #how-does-this-work {
@@ -67,17 +72,25 @@ hr {
 
 .code {
     font-family: monospace;
+    font-size: 1.03em;
 }
 
 #but-why {
     border-color: orange;
 }
 
+#but-why img{
+    width: 546px;
+    margin-bottom: 15px;
+}
+
 footer {
+    padding: 5px;
     text-align: center;
 }
 
 #marquee {
+    margin-top: 15px;
     font-size: 0.75em;
 }
 
